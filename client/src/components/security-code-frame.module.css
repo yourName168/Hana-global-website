@@ -1,0 +1,876 @@
+.orderReview {
+  height: 42px;
+  width: 181px;
+  position: relative;
+  font-size: var(--headings-h3-size);
+  line-height: 42px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: right;
+}
+.paypalButton {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) 0px;
+}
+.tourName {
+  height: 30px;
+  width: 95px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.baliBlissRetreat {
+  height: 32px;
+  width: 126px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.payWithCreditCardButton {
+  align-self: stretch;
+  border-bottom: 0.3px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.location {
+  height: 30px;
+  width: 75px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.indonesia {
+  height: 32px;
+  width: 73px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.noOfPassengers {
+  height: 30px;
+  width: 147px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.vuesaxoutlineIconsGroup {
+  height: 32px;
+  width: 8px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.contactInformationFrame {
+  align-self: stretch;
+  border-bottom: 0.3px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.checkinDate {
+  height: 30px;
+  width: 111px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.frameCityPostal {
+  height: 32px;
+  width: 71px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.duration {
+  height: 30px;
+  width: 78px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.d {
+  height: 32px;
+  width: 21px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.rectangleMM {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.cVVInputField {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-21xl);
+}
+.billingSummary {
+  margin: 0;
+  height: 42px;
+  width: 227px;
+  position: relative;
+  font-size: var(--headings-h3-size);
+  line-height: 42px;
+  font-weight: 700;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: right;
+  display: inline-block;
+}
+.packageCost {
+  height: 30px;
+  width: 110px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.cityFrame {
+  height: 32px;
+  width: 51px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.insurance {
+  height: 30px;
+  width: 81px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.frameGroup {
+  height: 32px;
+  width: 30px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.tax {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.frameText {
+  height: 32px;
+  width: 31px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.totalCost {
+  height: 30px;
+  width: 86px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.securityCodeFrame1 {
+  height: 32px;
+  width: 53px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+.cardNumberFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.emailSubscribeFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+}
+.frameChild {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  background-color: var(--white);
+  border: 1px solid var(--titles);
+  box-sizing: border-box;
+}
+.pleaseCheckTo {
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+}
+.privacyPolicy {
+  line-height: 16px;
+  font-family: var(--buttons-md-regular);
+  color: var(--primary);
+}
+.pleaseCheckToContainer {
+  height: 32px;
+  width: 293px;
+  position: relative;
+  font-size: var(--body-xsm-bold-size);
+  text-align: left;
+  display: inline-block;
+}
+.rectangleParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.cVVInputField1 {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-13xl) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.needHelp {
+  height: 32px;
+  width: 121px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: right;
+}
+.couponInputField {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs);
+  background-color: transparent;
+  width: 309px;
+  border-bottom: 1px solid var(--gray-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.couponInputField:hover {
+  background-color: var(--color-gray-100);
+}
+.doYouHave {
+  width: 309px;
+  height: 60px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+  text-align: left;
+}
+.pleaseFeelFree {
+  height: 52px;
+  width: 309px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  line-height: 26px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.newsletterSubscribeFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xs);
+}
+.contactNow {
+  height: 19px;
+  width: 101px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-weight: 600;
+  font-family: var(--buttons-md-regular);
+  color: var(--primary);
+  text-align: left;
+  display: inline-block;
+}
+.newsletterSubscribeFrame1 {
+  cursor: pointer;
+  border: 2px solid var(--primary);
+  padding: var(--padding-lgi) var(--padding-lg) var(--padding-lg);
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.newsletterSubscribeFrame1:hover {
+  background-color: var(--color-darkcyan-200);
+  border: 2px solid var(--color-darkcyan-100);
+  box-sizing: border-box;
+}
+.footerContact {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-base);
+  gap: var(--gap-base);
+}
+.paypalButtonFrame {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xl);
+}
+.iconsGroup {
+  width: 373px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  min-width: 373px;
+  max-width: 100%;
+}
+.bookNowButton {
+  align-self: stretch;
+  height: 300px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.yourDetails {
+  border: none;
+  outline: none;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  font-size: var(--headings-h3-size);
+  background-color: transparent;
+  height: 42px;
+  width: 166px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--titles);
+  text-align: right;
+}
+.yourDetailsWrapper {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+}
+.firstName {
+  width: 102px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.paymentGroup {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  max-width: 100%;
+}
+.paymentGroupWrapper {
+  align-self: stretch;
+  height: 52px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) var(--padding-9xs) 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.email {
+  width: 55px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.phone {
+  width: 63px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.firstNameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  min-width: 225px;
+  max-width: 100%;
+}
+.lastName {
+  width: 101px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.groupFrameChild {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+}
+.confirmEmail {
+  width: 127px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.postalCodeFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 224px;
+  max-width: 100%;
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.footerInfo {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.billingAddress {
+  border: none;
+  outline: none;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  font-size: var(--headings-h3-size);
+  background-color: transparent;
+  height: 42px;
+  width: 206px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--titles);
+  text-align: right;
+}
+.mMFrameChild {
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.street {
+  width: 61px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.additionalInformation {
+  width: 188px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.mMFrame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 224px;
+  max-width: 100%;
+}
+.city {
+  width: 43px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.cityPostalCodeGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.postalCode {
+  width: 112px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+.iconsGroup2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px var(--padding-12xs) 0px 0px;
+  box-sizing: border-box;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.securityCodeFrameChild {
+  align-self: stretch;
+  height: 160px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+}
+.securityCodeFrame2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.createAnAccount {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  min-width: 209px;
+  max-width: 100%;
+}
+.paypalButtonFrame1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.cardNumberFrameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  max-width: 100%;
+}
+.totalCostDisplay {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-45xl);
+  min-width: 460px;
+  max-width: 100%;
+}
+.securityCodeFrame {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+  .orderReview {
+    font-size: var(--buttons-lg-size);
+    line-height: 34px;
+  }
+
+  .billingSummary {
+    font-size: var(--buttons-lg-size);
+    line-height: 34px;
+  }
+
+  .iconsGroup {
+    flex: 1;
+  }
+
+  .yourDetails {
+    font-size: var(--buttons-lg-size);
+    line-height: 34px;
+  }
+
+  .billingAddress {
+    font-size: var(--buttons-lg-size);
+    line-height: 34px;
+  }
+
+  .securityCodeFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .orderReview {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+
+  .payWithCreditCardButton {
+    flex-wrap: wrap;
+  }
+
+  .cVVInputField {
+    gap: var(--gap-xl);
+  }
+
+  .billingSummary {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+
+  .cardNumberFrame {
+    flex-wrap: wrap;
+  }
+
+  .frameParent {
+    gap: var(--gap-xl);
+  }
+
+  .needHelp {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .iconsGroup {
+    gap: var(--gap-xl);
+    min-width: 100%;
+  }
+
+  .yourDetails {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+
+  .billingAddress {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+
+  .totalCostDisplay {
+    gap: var(--gap-base);
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+
+  .iconsGroup2 {
+    flex-wrap: wrap;
+  }
+
+  .paypalButtonFrame1 {
+    flex-wrap: wrap;
+  }
+
+  .totalCostDisplay {
+    gap: var(--gap-13xl);
+    min-width: 100%;
+  }
+
+  .securityCodeFrame {
+    gap: var(--gap-xl);
+  }
+}

@@ -1,0 +1,316 @@
+.ccDchV {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.bnPhaCng {
+  align-self: stretch;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Inter;
+  color: #313131;
+}
+.titles {
+  width: 1152px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameChild {
+  width: 412px;
+  position: relative;
+  height: 278px;
+  object-fit: cover;
+}
+.rectangleWrapper {
+  width: 412px;
+  height: 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.tourName {
+  position: relative;
+  line-height: 30px;
+}
+.baliBlissRetreat {
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Inter;
+}
+.tourNameParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 8px;
+}
+.durationParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 0px 8px;
+}
+.frameGroup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameWrapper {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 20px;
+}
+.serviceTypeParent {
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 8px;
+  gap: 16px;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vuesaxoutlineinfoCircle {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  display: none;
+}
+.cancel {
+  position: relative;
+}
+.button {
+  width: 148px;
+  background-color: #09b5af;
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  gap: 8px;
+  text-align: center;
+  font-size: 16px;
+  color: #313131;
+  font-family: Inter;
+}
+.frameContainer {
+  align-self: stretch;
+  width: 244px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1px 0px;
+  box-sizing: border-box;
+  gap: 54px;
+}
+.frameParent {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 109px;
+}
+.cards {
+  width: 1151px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.airlineParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.parent {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 16px;
+  font-family: Inter;
+}
+.fromParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0px 0px 8px;
+  gap: 16px;
+}
+.to {
+  width: 57px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.vietnam {
+  position: relative;
+  line-height: 32px;
+}
+.toParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+}
+.frameWrapper1 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameInner {
+  width: 412px;
+  position: relative;
+  height: 278px;
+}
+.rectangleFrame {
+  width: 412px;
+  height: 278px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-image: url('/Frame-1707479623.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.toyotaCorolla {
+  flex: 1;
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Inter;
+  text-align: right;
+}
+.carNameParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 8px;
+  gap: 16px;
+}
+.frameParent5 {
+  align-self: stretch;
+  width: 325px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameWrapper3 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.frameParent4 {
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 85px;
+}
+.vinpearlResort {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Inter;
+}
+.hotelNameParent {
+  align-self: stretch;
+  border-bottom: 0.3px solid #adadad;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 8px;
+  gap: 16px;
+}
+.cardsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.cardsBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 18px;
+}
+.titlesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 64px;
+}
+.body {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: 40px;
+  color: #0a0a0a;
+  font-family: 'Gentium Book Basic';
+}
+

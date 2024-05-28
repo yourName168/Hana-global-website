@@ -1,0 +1,261 @@
+.luxe-escapes {
+  position: relative;
+  font-size: 32px;
+  font-family: 'Gentium Book Basic';
+  color: #056d69;
+}
+.home {
+  position: relative;
+  line-height: 32px;
+  color: #09b5af;
+  text-align: center;
+}
+.tours {
+  position: relative;
+  line-height: 32px;
+}
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+.vuesaxoutlinesearch-normal-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.frame-child {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #adadad;
+  box-sizing: border-box;
+  height: 25px;
+}
+
+.avatar-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.vuesaxoutlinesearch-normal-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.nav-bar {
+  width: 1440px;
+  border-bottom: 1px solid #313131;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 160px;
+}
+.tt-c-bi {
+  position: relative;
+  line-height: 48px;
+  white-space: pre-wrap;
+}
+
+.tt-c-bi-vit-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  font-size: 40px;
+  font-family: 'Gentium Book Basic';
+}
+.rectangle-icon {
+  width: 256px;
+  position: relative;
+  height: 276px;
+  object-fit: cover;
+}
+.du-lch-hn {
+  max-height:calc(3 * 42px) ;
+  overflow: hidden;
+  align-self: stretch;
+  position: relative;
+  font-size: large;
+  font-family: 'Gentium Book Basic';
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 12px;
+}
+.mang-ti-cho {
+  max-lines: 2;
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 32px;
+  color: #313131;
+  max-height: calc(2 * 32px); /* Assuming line-height is 32px */
+  overflow: hidden;
+}
+.c-thm {
+  position: relative;
+  font-weight: 600;
+}
+.c-thm-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #09b5af;
+}
+.du-lch-hn-quc-ma-thu-parent {
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 16px;
+  gap: 8px;
+}
+.rectangle-parent {
+  max-width: 643px;
+  max-height: 276px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.group-icon {
+  width: 48px;
+  position: relative;
+  height: 48px;
+}
+.ellipse-div {
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #efefef;
+  height: 12px;
+}
+.frame-child7 {
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #09b5af;
+  height: 12px;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.group-parent {
+  width: 643px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.left-column {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+}
+
+
+.frame-child13 {
+  width: 120px;
+  position: relative;
+  height: 120px;
+  object-fit: cover;
+}
+.du-lch-hn4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.parent2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  font-family: Inter;
+}
+.du-lch-hn-quc-ma-thu-parent2 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.rectangle-parent1 {
+  width: 381px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 0px 12px;
+  box-sizing: border-box;
+  gap: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.body {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 96px;
+  font-size: 30px;
+}
+.top-section {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 80px;
+  text-align: left;
+  font-size: 18px;
+  color: #0a0a0a;
+  font-family: Inter;
+}
+
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}

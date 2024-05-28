@@ -1,0 +1,199 @@
+
+.k {
+  width: 64px;
+  height: 48px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+}
+.happyClients {
+  width: 159px;
+  height: 32px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.vueSaxOutlineFacebook {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.vueSaxOutlineFacebookChild {
+  width: 1px;
+  height: 44px;
+  position: relative;
+  border-right: 1px solid var(--text);
+  box-sizing: border-box;
+}
+.vueSaxOutlineFacebook1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-lgi) 0px 0px;
+}
+.b {
+  width: 59px;
+  height: 48px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.expertTourGuides {
+  width: 218px;
+  height: 32px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.vueSaxOutlineFacebook2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-11xs) 0px 0px;
+  gap: var(--gap-9xs);
+}
+.vueSaxOutlineFacebook3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-base) 0px 0px;
+}
+.luxuryTours {
+  width: 148px;
+  height: 32px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.vueSaxOutlineFacebook4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-7xs) 0px 0px;
+  gap: var(--gap-9xs);
+}
+.vueSaxOutlineFacebook5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs) 0px 0px;
+}
+.b2 {
+  width: 80px;
+  height: 48px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.excitingDestinations {
+  width: 237px;
+  height: 32px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.vueSaxOutlineWhatsapp {
+  align-self: stretch;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-45xl) var(--padding-141xl);
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--headings-h2-size);
+  color: var(--titles);
+  font-family: var(--headings-h2);
+}
+
+@media screen and (max-width: 1125px) {
+  .vueSaxOutlineWhatsapp {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .k {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .happyClients {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .b {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .expertTourGuides {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .luxuryTours {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .b2 {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .excitingDestinations {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .vueSaxOutlineWhatsapp {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .k {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .b {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .b2 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .vueSaxOutlineWhatsapp {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}

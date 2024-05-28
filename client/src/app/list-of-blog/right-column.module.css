@@ -1,0 +1,36 @@
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 80px;
+    font-size: 24px;
+    font-family: 'Gentium Book Basic';
+  }
+  .list-mini-post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
+  .bi-vit-gn-y-parent {
+    width: 381px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    font-size: 40px;
+  }
+  .bi-vit-gn {
+    position: relative;
+    line-height: 48px;
+  }
+  .frame-inner {
+    align-self: stretch;
+    position: relative;
+    border-top: 1px solid #313131;
+    box-sizing: border-box;
+    height: 1px;
+  }

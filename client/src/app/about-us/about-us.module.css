@@ -1,0 +1,133 @@
+.section2Child {
+  height: 530px;
+  width: 474px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.ourStory {
+  margin: 0;
+  align-self: stretch;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.ourStoryAt {
+  width: 526px;
+  height: 480px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  min-width: 342px;
+  max-width: 100%;
+}
+.section2 {
+  width: 1120px;
+  border-right: 1px solid var(--text);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-21xl) 0px 0px;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--headings-h2-size);
+  color: var(--titles);
+  font-family: var(--headings-h2);
+}
+.fullPage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-69xl);
+  max-width: 100%;
+}
+.aboutUs {
+  position: relative;
+  background-color: var(--white);
+  width: 100%;
+  height: 4111px;
+  overflow: hidden;
+  letter-spacing: normal;
+}
+
+@media screen and (max-width: 1125px) {
+  .section2 {
+    gap: var(--gap-21xl);
+    width: calc(100% - 40px);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .section2Child {
+    flex: 1;
+  }
+
+  .section2 {
+    flex-wrap: wrap;
+    padding: var(--padding-xl);
+    box-sizing: border-box;
+  }
+
+  .aboutUs {
+    height: auto;
+    min-height: 4111;
+  }
+}
+@media screen and (max-width: 750px) {
+  .ourStory {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .ourStoryAt {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .text {
+    min-width: 100%;
+  }
+
+  .fullPage {
+    gap: var(--gap-3xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .ourStory {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .section2 {
+    gap: var(--gap-xl);
+  }
+
+  .fullPage {
+    gap: var(--gap-25xl);
+  }
+}

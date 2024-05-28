@@ -1,0 +1,451 @@
+.luxeEscapes {
+  margin: 0;
+  width: 206px;
+  height: 37px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+}
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  animation: shake 0.5s ease-in-out;
+}
+.signUpLink {
+  text-decoration: none;
+  /* Ẩn đường gạch chân */
+  color: inherit;
+  /* Giữ nguyên màu chữ */
+  font-size: inherit;
+  /* Giữ nguyên kích thước chữ */
+  font-weight: 700;
+  /* Đậm chữ */
+  font-family: inherit;
+  /* Giữ nguyên font chữ */
+}
+
+.logIn1 {
+  margin: 0;
+  width: 111px;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.pleaseInputEssential {
+  width: 469px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+
+.formInputFrameUserName {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-10xs);
+  gap: var(--gap-5xl);
+}
+
+.password {
+  width: 92px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: center;
+  display: inline-block;
+}
+
+.vuesaxoutlineaddSquareIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+  min-height: 24px;
+}
+
+.yourPassword {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-family: var(--buttons-md-regular);
+  font-size: var(--buttons-md-regular-size);
+  background-color: transparent;
+  height: 19px;
+  flex: 1;
+  position: relative;
+  color: var(--gray-01);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 150px;
+  max-width: calc(100% - 32px);
+}
+
+.vuesaxoutlineeyeSlashIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+
+.input {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-4xs) var(--padding-base) var(--padding-6xs);
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+
+.forgotYourPassword {
+  height: 19px;
+  width: 173px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--buttons-md-regular);
+  color: var(--primary);
+  text-align: center;
+  display: inline-block;
+}
+
+.forgotYourPasswordWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.formInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+
+.vueSaxEyesIcon {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+
+.vuesaxoutlineinfoCircleIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+
+.logIn2 {
+  height: 29px;
+  width: 69px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.button {
+  align-self: stretch;
+  background-color: var(--primary);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-5xl);
+  gap: var(--gap-5xs);
+}
+
+.facebookAppleGoogleLogos {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.orContinueWith {
+  width: 126px;
+  height: 19px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+  text-align: left;
+  display: inline-block;
+}
+
+.facebookIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  min-height: 42px;
+}
+
+.appleIcon {
+  height: 42px;
+  width: 42px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 42px;
+}
+
+.socialMediaLogins {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+
+.shapeFrame {
+  width: 174px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+
+.dontHaveAn {
+  font-family: var(--buttons-md-regular);
+  color: var(--titles);
+}
+
+.signUp {
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--buttons-md-regular);
+  color: var(--primary);
+}
+
+.dontHaveAnContainer {
+  width: 239px;
+  height: 32px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  text-align: left;
+  display: inline-block;
+}
+
+.orElseFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+
+.formLabelEmailAddress {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+
+.logoFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 36px;
+  box-sizing: border-box;
+  gap: var(--gap-53xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--headings-h2-size);
+  color: var(--titles);
+}
+
+.leftColumn {
+  width: 548px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px;
+  box-sizing: border-box;
+  gap: var(--gap-45xl);
+  min-width: 548px;
+  max-width: 100%;
+}
+
+.firstRectangle {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+  bottom: 0px;
+  left: 214px;
+  background-color: var(--primary);
+  width: 422px;
+}
+
+.secondRectangleIcon {
+  position: absolute;
+  top: 130px;
+  left: 0px;
+  width: 476px;
+  height: 764px;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.baseFrame {
+  height: 1024px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+
+.shape {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  min-width: 413px;
+}
+
+.logIn {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0px auto;
+  max-width: 1280px;
+  box-sizing: border-box;
+  gap: var(--gap-77xl);
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--shade);
+  font-family: var(--headings-h2);
+  margin: 0 auto;
+  /* Đây là phần được thêm vào để căn giữa theo chiều ngang */
+}
+
+
+@media screen and (max-width: 1125px) {
+  .leftColumn {
+    flex: 1;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .luxeEscapes {
+    font-size: var(--font-size-7xl);
+  }
+
+  .logIn1 {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .logIn {
+    flex-wrap: wrap;
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .logoFrame {
+    gap: var(--gap-17xl);
+  }
+
+  .leftColumn {
+    gap: var(--gap-13xl);
+    min-width: 100%;
+  }
+
+  .shape {
+    min-width: 100%;
+  }
+
+  .logIn {
+    gap: var(--gap-29xl);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .luxeEscapes {
+    font-size: var(--font-size-lgi);
+  }
+
+  .logIn1 {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .pleaseInputEssential {
+    font-size: var(--buttons-md-regular-size);
+    line-height: 26px;
+  }
+
+  .logIn2 {
+    font-size: var(--font-size-lgi);
+  }
+
+  .logoFrame {
+    gap: var(--gap-lg);
+  }
+
+  .leftColumn {
+    gap: var(--gap-base);
+  }
+
+  .logIn {
+    gap: var(--gap-5xl);
+  }
+}

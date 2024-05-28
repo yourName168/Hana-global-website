@@ -1,0 +1,102 @@
+.nhng-phn-hi {
+  width: 725px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+}
+.frame-child {
+  width: 48px;
+  position: relative;
+  height: 48px;
+}
+.frame-item {
+  width: 80px;
+  position: relative;
+  border-radius: 50%;
+  height: 80px;
+  object-fit: cover;
+}
+.john-doe {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.ceo-abc-company {
+  position: relative;
+  line-height: 32px;
+  color: #313131;
+}
+.john-doe-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.vuesaxboldmagic-star-icon {
+  width: 32.86px;
+  position: relative;
+  height: 32.86px;
+  object-fit: contain;
+}
+.vuesaxboldmagic-star-parent {
+  width: 164px;
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.chuyn-i-ca {
+  width: 590px;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  color: #313131;
+  text-align: center;
+  display: inline-block;
+}
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 88px;
+  text-align: left;
+  font-size: 16px;
+  font-family: Inter;
+}
+.section-7 {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+  text-align: center;
+  font-size: 40px;
+  color: #0a0a0a;
+  font-family: 'Gentium Book Basic';
+}
+

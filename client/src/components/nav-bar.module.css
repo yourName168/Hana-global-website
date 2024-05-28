@@ -1,0 +1,109 @@
+.luxe-escapes {
+  position: relative;
+  font-size: 32px;
+  font-family: 'Gentium Book Basic';
+  color: #056d69;
+}
+
+.home {
+  position: relative;
+  line-height: 32px;
+  color: #09b5af;
+  text-align: center;
+}
+
+.tours {
+  color: black;
+  position: relative;
+  line-height: 32px;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 48px;
+}
+
+.vuesaxoutlinesearch-normal-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+
+.frame-child {
+  width: 1px;
+  position: relative;
+  border-right: 1px solid #adadad;
+  box-sizing: border-box;
+  height: 25px;
+}
+
+.avatar-icon {
+  width: 32px;
+  position: relative;
+  height: 32px;
+}
+
+.avatar-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.vuesaxoutlinesearch-normal-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.nav-bar {
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #313131;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 160px;
+  text-align: left;
+  font-size: 18px;
+  color: #0a0a0a;
+  font-family: Inter;
+}
+
+.button {
+  background-color: #09b5af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-size: 16px;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.search-input {
+  position: absolute;
+  margin-top: 8px; /* Khoảng cách giữa icon và ô input */
+  width: 200px; /* Chiều rộng của ô input */
+}
+.auth-buttons {
+  gap:10px
+}
+
+.button:hover {
+  background-color: #4f9b99;
+}

@@ -1,0 +1,285 @@
+.dch-v-visa {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  z-index: 0;
+}
+.chng-ti-cung {
+  align-self: stretch;
+  width: 694px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.xem-dch-v {
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+}
+.xem-dch-v-wrapper {
+  width: 186px;
+  border: 2px solid #09b5af;
+  box-sizing: border-box;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  text-align: left;
+  font-size: 24px;
+  color: #09b5af;
+  font-family: Inter;
+}
+.chng-ti-cung-cp-cc-dch-v-parent {
+  width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Times New Roman';
+}
+.frame-child {
+  width: 1120px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0px;
+  left: 0px;
+  max-height: 100%;
+  z-index: 2;
+}
+.frame-item {
+  width: 1120px;
+  position: absolute;
+  margin: 0 !important;
+  top: 611px;
+  left: 0px;
+  max-height: 100%;
+  z-index: 3;
+}
+.dch-v-visa-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+  gap: 8px;
+  z-index: 0;
+}
+.b {
+  position: relative;
+  line-height: 48px;
+}
+.div {
+  position: relative;
+  font-size: 28px;
+  line-height: 48px;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.stay-informed-about {
+  margin: 0;
+}
+.stay-informed-about-container {
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Inter;
+  color: #313131;
+}
+.frame-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame-inner {
+  width: 48px;
+  position: relative;
+  height: 48px;
+}
+.group-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.frame-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.rectangle-icon {
+  width: 300px;
+  position: relative;
+  height: 300px;
+  object-fit: cover;
+}
+.all {
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+}
+.the-best-luxury {
+  width: 327px;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: 'Gentium Book Basic';
+}
+.all-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.experience-the-epitome {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 32px;
+  color: #313131;
+}
+.read-more {
+  position: relative;
+  font-weight: 600;
+}
+.vuesaxoutlinearrow-right-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.read-more-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  color: #09b5af;
+}
+.frame-parent2 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 32px 0px 0px;
+  gap: 8px;
+}
+.rectangle-parent {
+  align-self: stretch;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.ellipse-div {
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #efefef;
+  height: 12px;
+}
+.frame-child1 {
+  width: 12px;
+  position: relative;
+  border-radius: 50%;
+  background-color: #09b5af;
+  height: 12px;
+}
+.ellipse-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: 32px;
+  font-size: 16px;
+  font-family: Inter;
+}
+.frame-group {
+  width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+  z-index: 1;
+  font-size: 40px;
+  font-family: 'Gentium Book Basic';
+}
+.line-icon {
+  width: 0px;
+  position: absolute;
+  margin: 0 !important;
+  top: 111px;
+  left: 161px;
+  height: 87px;
+  object-fit: contain;
+  z-index: 2;
+}
+.frame-parent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 160px;
+  box-sizing: border-box;
+  gap: 32px;
+  text-align: left;
+  font-size: 16px;
+  color: #0a0a0a;
+  font-family: Inter;
+}
+
+.xem-cc-tour-wrapper {
+  width: 186px;
+  font-size: large;
+  margin: 0 !important;
+  top: 653px;
+  left: 1008px;
+  size: 20px;
+  box-sizing: border-box;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  color: #09b5af;
+  font-family: Inter;
+}

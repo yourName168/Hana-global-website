@@ -1,0 +1,150 @@
+.luxeEscapes {
+  margin: 0;
+  height: 37px;
+  width: 186px;
+  position: relative;
+  font-size: var(--font-size-13xl);
+  font-weight: 700;
+  font-family: var(--headings-h2);
+  color: var(--shade);
+  display: inline-block;
+  white-space: nowrap;
+}
+.home {
+  height: 32px;
+  width: 51px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.tours {
+  height: 32px;
+  width: 48px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.aboutUs {
+  height: 32px;
+  width: 82px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  color: var(--primary);
+  text-align: center;
+  white-space: nowrap;
+}
+.blog {
+  height: 32px;
+  width: 38px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.contacts {
+  height: 32px;
+  width: 77px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.menuItems {
+  width: 488px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.vuesaxoutlinesearchNormalIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.footerButtomSection {
+  height: 24px;
+  width: 1px;
+  position: relative;
+  border-right: 1px solid var(--gray-01);
+  box-sizing: border-box;
+}
+.avatarIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  min-height: 32px;
+}
+.loginSign {
+  height: 32px;
+  width: 134px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.headerFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.contactInformationFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.navBar {
+  flex: 1;
+  border-bottom: 1px solid var(--text);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-xl) var(--padding-5xl)
+    var(--padding-5xl);
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-md-size);
+  color: var(--titles);
+  font-family: var(--buttons-md-regular);
+}
+.jobTitleFrame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px var(--padding-5xs);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1125px) {
+  .navBar {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .menuItems {
+    display: none;
+  }
+}
+@media screen and (max-width: 750px) {
+  .loginSign {
+    display: none;
+  }
+}
+@media screen and (max-width: 450px) {
+  .navBar {
+    gap: var(--gap-xl);
+  }
+}

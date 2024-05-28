@@ -1,0 +1,184 @@
+.whatOurClients {
+  margin: 0;
+  width: 725px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.textChild {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.clientQuoteChild {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.ceoAbcCompany,
+.johnDoe {
+  position: relative;
+  line-height: 32px;
+}
+.johnDoe {
+  font-weight: 600;
+}
+.ceoAbcCompany {
+  color: var(--text);
+}
+.clientQuote,
+.johnDoeParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.clientQuote {
+  justify-content: center;
+  padding: 0 var(--padding-8xs);
+  gap: 8px 0;
+}
+.vuesaxboldmagicStarIcon,
+.vuesaxboldmagicStarIcon1,
+.vuesaxboldmagicStarIcon2,
+.vuesaxboldmagicStarIcon3,
+.vuesaxboldmagicStarIcon4 {
+  height: 32.9px;
+  width: 32.9px;
+  position: relative;
+  object-fit: contain;
+}
+.vuesaxboldmagicStarParent {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.clientQuoteParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px 0;
+}
+.ourTripWith {
+  width: 590px;
+  position: relative;
+  font-size: var(--headings-h4-size);
+  line-height: 32px;
+  color: var(--text);
+  text-align: center;
+  display: inline-block;
+}
+.parentQuoteFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px 0;
+  max-width: 100%;
+}
+.textItem {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.section7,
+.text1 {
+  align-items: center;
+}
+.text1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--body-md);
+}
+.section7 {
+  flex: 1;
+  flex-direction: column;
+  gap: 48px 0;
+}
+.fullPage,
+.section7,
+.text {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.text {
+  width: 902px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-37xl);
+  box-sizing: border-box;
+}
+.fullPage {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px 0;
+  text-align: center;
+  font-size: var(--headings-h2-size);
+  color: var(--titles);
+  font-family: var(--headings-h4);
+}
+.homepage {
+  width: 100%;
+  height: 5060px;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1150px) {
+  .homepage {
+    height: auto;
+    min-height: 6372;
+  }
+}
+@media screen and (max-width: 800px) {
+  .whatOurClients {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .text1 {
+    flex-wrap: wrap;
+  }
+  .fullPage {
+    gap: 32px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .whatOurClients {
+    font-size: var(--headings-h4-size);
+    line-height: 29px;
+  }
+  .ourTripWith {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .section7 {
+    gap: 24px 0;
+  }
+  .fullPage {
+    gap: 16px 0;
+  }
+}

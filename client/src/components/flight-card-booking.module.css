@@ -1,0 +1,115 @@
+.groupChild {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 309px;
+    height: 151.1px;
+    object-fit: cover;
+}
+.vuesaxoutlinelocationIcon {
+    width: 20px;
+    position: relative;
+    height: 20px;
+}
+.fromSgnTo {
+    position: relative;
+    line-height: 32px;
+}
+.vuesaxoutlinelocationParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 4px;
+}
+.frameParent {
+    position: absolute;
+    top: 151px;
+    left: 0px;
+    background-color: #84dad7;
+    width: 309px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+.rectangleParent {
+    width: 309px;
+    position: relative;
+    height: 332px;
+}
+.title {
+    align-self: stretch;
+    position: relative;
+    line-height: 32px;
+}
+.titleAndText {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12px 24px;
+}
+.bookNow {
+    position: relative;
+    font-weight: 600;
+}
+.vuesaxoutlinearrowRightIcon {
+    width: 24px;
+    position: relative;
+    height: 24px;
+}
+.bookNowParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+}
+.titleParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 24px;
+    gap: 4px;
+    font-size: 20px;
+    color: #09b5af;
+    font-family: Inter;
+}
+.titleAndTextParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    text-align: left;
+    font-size: 24px;
+    color: #0a0a0a;
+    font-family: 'Gentium Book Basic';
+}
+.card {
+    position: relative;
+    background-color: #f6f6f6;
+    height: 508px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 16px;
+    color: #313131;
+    font-family: Inter;
+}
+

@@ -1,0 +1,358 @@
+.whyUs {
+  width: 69px;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.weProvideThe {
+  margin: 0;
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+}
+.indulgeInOpulence {
+  align-self: stretch;
+  height: 96px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.cardTextsIcon {
+  height: 8px;
+  width: 12px;
+  position: relative;
+}
+.luxuriousAccommodationsIn {
+  height: 64px;
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  min-width: 342px;
+  max-width: 100%;
+}
+.cardTexts {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.accessToVip {
+  height: 32px;
+  flex: 1;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  max-width: calc(100% - 24px);
+}
+.cardTexts1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+}
+.titleArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  max-width: 100%;
+  font-size: var(--buttons-lg-size);
+  color: var(--text);
+  font-family: var(--buttons-md-regular);
+}
+.infoSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  flex-shrink: 0;
+  font-size: var(--headings-h2-size);
+  font-family: var(--headings-h2);
+}
+.jobCard {
+  height: 440px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-xl) 0px var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+  min-width: 383px;
+  max-width: 100%;
+}
+.vuesaxOutlineIcon {
+  height: 530px;
+  width: 450px;
+  position: relative;
+  object-fit: cover;
+  max-width: 100%;
+}
+.section5 {
+  align-self: stretch;
+  border-left: 1px solid var(--text);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+}
+.whatOurClients {
+  margin: 0;
+  width: 725px;
+  height: 48px;
+  position: relative;
+  font-size: inherit;
+  line-height: 48px;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.inputSectionChild {
+  height: 48px;
+  width: 48px;
+  position: relative;
+}
+.headerFrameIcon {
+  width: 80px;
+  height: 80px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.johnDoe {
+  width: 77px;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  display: inline-block;
+}
+.ceoAbcCompany {
+  width: 154px;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  color: var(--text);
+  display: inline-block;
+}
+.jobCard1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footerFrames {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px var(--padding-8xs);
+  gap: var(--gap-5xs);
+}
+.vuesaxboldmagicStarIcon {
+  height: 32.9px;
+  width: 32.9px;
+  position: relative;
+  object-fit: contain;
+}
+.facebookIconFrame {
+  height: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.subscribeArea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.ourTripWith {
+  width: 590px;
+  height: 160px;
+  position: relative;
+  font-size: var(--buttons-lg-size);
+  line-height: 32px;
+  color: var(--text);
+  text-align: center;
+  display: inline-block;
+}
+.parentFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+  max-width: 100%;
+}
+.inputSection {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--buttons-md-regular);
+}
+.section7 {
+  width: 862px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-29xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--headings-h2-size);
+  font-family: var(--headings-h2);
+}
+.jobCards {
+  width: 1160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-69xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--buttons-md-regular-size);
+  color: var(--titles);
+  font-family: var(--buttons-md-regular);
+}
+
+@media screen and (max-width: 1125px) {
+  .section5 {
+    gap: var(--gap-21xl);
+  }
+
+  .jobCards {
+    gap: var(--gap-25xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .vuesaxOutlineIcon {
+    flex: 1;
+  }
+
+  .section5 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .weProvideThe {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .indulgeInOpulence {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .luxuriousAccommodationsIn {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+    min-width: 100%;
+  }
+
+  .accessToVip {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .jobCard {
+    min-width: 100%;
+  }
+
+  .whatOurClients {
+    font-size: var(--buttons-lg-size);
+    line-height: 29px;
+  }
+
+  .ourTripWith {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .section7 {
+    gap: var(--gap-5xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .weProvideThe {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .cardTexts {
+    flex-wrap: wrap;
+  }
+
+  .infoSection {
+    gap: var(--gap-base);
+  }
+
+  .jobCard {
+    height: auto;
+  }
+
+  .section5 {
+    gap: var(--gap-xl);
+  }
+
+  .whatOurClients {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+
+  .inputSection {
+    flex-wrap: wrap;
+  }
+
+  .jobCards {
+    gap: var(--gap-3xl);
+  }
+}

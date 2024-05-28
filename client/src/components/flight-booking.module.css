@@ -1,0 +1,215 @@
+.bookingFlightTicket {
+    position: relative;
+    line-height: 48px;
+}
+.orderReview {
+    position: relative;
+    line-height: 42px;
+}
+.orderReviewWrapper {
+    align-self: stretch;
+    border-bottom: 1px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px 0px;
+}
+.airline {
+    position: relative;
+    line-height: 30px;
+}
+.vietnamAirline {
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Inter;
+}
+.airlineParent {
+    align-self: stretch;
+    border-bottom: 0.3px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 8px;
+}
+.div {
+    position: relative;
+    line-height: 32px;
+}
+.parent {
+    width: 269px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 16px;
+    font-family: Inter;
+}
+.frameGroup {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 18px;
+}
+.frameParent {
+    width: 373px;
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 32px 24px;
+    box-sizing: border-box;
+    gap: 40px;
+}
+.rightColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.leftColumnChild {
+    align-self: stretch;
+    position: relative;
+    width: 707px;
+    overflow: hidden;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+.yourDetailsWrapper {
+    align-self: stretch;
+    border-bottom: 1px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 0px 24px;
+}
+.leeHieu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    width: 345px;
+    height: 48px;
+}
+.leeHieuWrapper {
+    width: 345.5px;
+    position: relative;
+    height: 48px;
+    color: #000;
+}
+.firstNameParent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.frameParent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.phoneParent {
+    width: 346px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+}
+.frameDiv {
+    width: 707px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    text-align: left;
+    font-size: 18px;
+    font-family: Inter;
+}
+.frameContainer {
+    align-self: stretch;
+    border-bottom: 1px solid #adadad;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px 0px 24px;
+    gap: 50px;
+}
+.bookNow {
+    position: relative;
+    font-weight: 600;
+}
+.bookNowWrapper {
+    width: 250px;
+    background-color: #09b5af;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    box-sizing: border-box;
+}
+.leftColumnInner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 16px;
+    font-family: Inter;
+}
+.leftColumn {
+    height: 719.1px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.columns {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    text-align: right;
+    font-size: 30px;
+}
+.body {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+    text-align: left;
+    font-size: 40px;
+    color: #0a0a0a;
+    font-family: 'Gentium Book Basic';
+}
+

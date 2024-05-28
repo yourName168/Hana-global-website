@@ -1,0 +1,535 @@
+.paymentInformation {
+  margin: 0;
+  position: relative;
+  font-size: var(--headings-h3-size);
+  line-height: 42px;
+  font-weight: 700;
+  font-family: var(--headings-h4);
+  color: var(--titles);
+  text-align: right;
+}
+.paymentInfoFrame {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.securityCodeGroupChild {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.payWithCredit {
+  position: relative;
+  font-size: var(--headings-h4-size);
+  line-height: 32px;
+  font-family: var(--headings-h4);
+  color: var(--titles);
+  text-align: right;
+}
+.securityCodeGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.cardNumber {
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--body-md);
+  color: var(--titles);
+  text-align: left;
+}
+.payWithPaypalText {
+  height: 48px;
+  width: 321px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  max-width: 100%;
+}
+.icons,
+.icons1,
+.icons2,
+.icons3 {
+  height: 32px;
+  width: 48px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 32px;
+}
+.iconsGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.cardNumberInput,
+.payWithPaypalTextParent {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.payWithPaypalTextParent {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.cardNumberInput {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.expirationDate,
+.securityCode {
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--body-md);
+  color: var(--titles);
+  text-align: left;
+}
+.expirationDateParent {
+  width: 468px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.frameChild,
+.frameInner,
+.frameItem {
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-100);
+  height: 48px;
+  display: flex;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  font-family: var(--body-md);
+  font-size: var(--body-xsm-bold-size);
+  color: var(--gray-01);
+}
+.frameChild {
+  width: 156px;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-2xs) var(--padding-xs) var(--padding-3xs);
+  min-width: 101px;
+}
+.frameInner,
+.frameItem {
+  width: 165px;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+.frameInner {
+  width: 321px;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.cardNumberInput1,
+.expirationDateFrame,
+.frameGroup,
+.iconsIcons {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  gap: 0 8px;
+}
+.cardNumberInput1,
+.expirationDateFrame,
+.iconsIcons {
+  flex-direction: column;
+}
+.cardNumberInput1 {
+  align-items: flex-start;
+  gap: 12px 0;
+}
+.expirationDateFrame,
+.iconsIcons {
+  gap: 24px 0;
+}
+.iconsIcons {
+  border: 1px solid var(--gray-01);
+  box-sizing: border-box;
+  align-items: center;
+  padding: var(--padding-5xl) var(--padding-4xl) var(--padding-13xl);
+}
+.expirationDateFrame {
+  align-items: flex-start;
+}
+.footerBackgroundChild {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border-radius: 50%;
+  border: 0 solid var(--titles);
+  box-sizing: border-box;
+}
+.footerBackground {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.payWithPaypal,
+.youWillBe {
+  position: relative;
+  font-size: var(--headings-h4-size);
+  line-height: 32px;
+  font-family: var(--headings-h4);
+  color: var(--titles);
+  text-align: right;
+}
+.youWillBe {
+  flex: 1;
+  font-size: var(--body-md-size);
+  font-family: var(--body-md);
+  color: var(--dark-dark-3);
+  text-align: left;
+  display: inline-block;
+  min-width: 300px;
+  max-width: 100%;
+}
+.payWithPaypalParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 16px;
+  min-width: 439px;
+  max-width: 100%;
+}
+.footerBackgroundParent,
+.paymentInfoFrameParent {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.footerBackgroundParent {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+}
+.paymentInfoFrameParent {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px 0;
+}
+.haveACoupon {
+  width: 213px;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: var(--headings-h4);
+  font-size: var(--headings-h3-size);
+  background-color: transparent;
+  height: 42px;
+  position: relative;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--titles);
+  text-align: right;
+}
+.footerContact,
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.footerContact {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-01);
+  align-items: center;
+  padding: 0 0 var(--padding-5xl);
+}
+.input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background-color: var(--color-whitesmoke-100);
+  height: 48px;
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  font-family: var(--body-md);
+  font-size: var(--body-xsm-bold-size);
+  color: var(--text);
+  min-width: 208px;
+}
+.vuesaxoutlineinfoCircleIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.applyCoupon {
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--body-md);
+  color: var(--text);
+  text-align: center;
+}
+.vuesaxoutlinearrowRightIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-5xs) var(--padding-sm);
+  background-color: var(--primary);
+  height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: 0 8px;
+}
+.checkboxGroup,
+.emailField {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.emailField {
+  width: 459px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.checkboxGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 24px 0;
+}
+.cancellationPolicy {
+  position: relative;
+  font-size: var(--headings-h3-size);
+  line-height: 42px;
+  font-family: var(--headings-h4);
+  color: var(--titles);
+  text-align: right;
+}
+.footerPolicy {
+  align-self: stretch;
+  border-bottom: 1px solid var(--gray-01);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+}
+.emailFrame {
+  margin: 0;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  border: 1px solid var(--titles);
+  box-sizing: border-box;
+}
+.iAccept {
+  font-family: var(--body-md);
+  color: var(--titles);
+}
+.and,
+.generalPolicy,
+.span,
+.termsAndConditions {
+  font-family: var(--body-md);
+  color: var(--primary);
+}
+.and,
+.generalPolicy,
+.span {
+  color: var(--titles);
+}
+.generalPolicy,
+.span {
+  color: var(--primary);
+}
+.span {
+  color: var(--titles);
+}
+.iAcceptTermsContainer {
+  flex: 1;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  text-align: left;
+  display: inline-block;
+  min-width: 342px;
+  max-width: 100%;
+}
+.contactInfoFrame,
+.totalCostArea {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactInfoFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0 8px;
+}
+.totalCostArea {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px 0;
+}
+.emptySpace,
+.totalCost {
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 30px;
+  font-family: var(--headings-h4);
+  color: var(--titles);
+  text-align: left;
+}
+.emptySpace {
+  font-size: var(--buttons-md-regular-size);
+  line-height: 32px;
+  font-weight: 600;
+  font-family: var(--body-md);
+  white-space: nowrap;
+}
+.totalCostContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 8px;
+}
+.bookNow {
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-weight: 600;
+  font-family: var(--body-md);
+  color: var(--titles);
+  text-align: left;
+}
+.bookNowFrame {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-lg) var(--padding-lgi);
+  background-color: var(--primary);
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.bookNowFrame:hover {
+  background-color: var(--color-darkcyan-100);
+}
+.officeLocationFrame {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px 0;
+}
+.frameParent,
+.mMFrameInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  margin: 0;
+  width: 707px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 64px 0;
+}
+.mMFrameInner {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+@media screen and (max-width: 1050px) {
+  .cancellationPolicy,
+  .haveACoupon,
+  .paymentInformation {
+    font-size: var(--headings-h4-size);
+    line-height: 34px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .payWithPaypalTextParent {
+    flex-wrap: wrap;
+  }
+  .payWithPaypalParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+  .paymentInfoFrameParent {
+    gap: 16px 0;
+  }
+  .frameParent {
+    gap: 32px 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .paymentInformation {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+  .payWithCredit {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .expirationDateParent {
+    flex-wrap: wrap;
+  }
+  .payWithPaypal {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .cancellationPolicy,
+  .haveACoupon {
+    font-size: var(--body-md-size);
+    line-height: 25px;
+  }
+  .iAcceptTermsContainer {
+    min-width: 100%;
+  }
+  .frameParent {
+    gap: 16px 0;
+  }
+}

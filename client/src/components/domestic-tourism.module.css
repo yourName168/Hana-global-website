@@ -1,0 +1,157 @@
+.du-lch-trong {
+  width: 725px;
+  position: relative;
+  line-height: 48px;
+  display: inline-block;
+}
+
+.khm-ph-cc {
+  width: 862px;
+  position: relative;
+  font-size: 24px;
+  line-height: 48px;
+  font-family: Inter;
+  white-space: pre-wrap;
+  display: inline-block;
+}
+
+.du-lch-trong-nc-parent {
+  width: 898px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  z-index: 0;
+  text-align: center;
+  font-size: 40px;
+}
+
+.frame-child {
+  width: 357px;
+  position: relative;
+  height: 206px;
+  object-fit: cover;
+}
+
+.riviera-retreat {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+
+.indulge-in-the {
+  overflow: auto;
+  align-self: stretch;
+  height: calc(32px*3);
+  position: relative;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: Inter;
+  color: #313131;
+}
+
+.riviera-retreat-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.c-thm {
+  position: relative;
+  font-weight: 600;
+}
+
+.vuesaxoutlinearrow-right-icon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+
+.c-thm-parent {
+  padding: 24px 10px 24px 10px;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: #09b5af;
+  font-family: Inter;
+}
+
+.frame-group {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 24px 10px 24px 24px;
+  gap: 16px;
+}
+
+.rectangle-parent {
+  min-height: 100%;
+  max-width: 357px;
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.experience-the-epitome {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: Inter;
+  color: #313131;
+}
+
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  z-index: 1;
+}
+
+.xem-cc-tour-wrapper {
+  width: 186px;
+  font-size: large;
+  margin: 0 !important;
+  top: 653px;
+  left: 1008px;
+  size: 20px;
+  box-sizing: border-box;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+  color: #09b5af;
+  font-family: Inter;
+}
+
+.section-3 {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 160px;
+  box-sizing: border-box;
+  gap: 48px;
+  text-align: left;
+  font-size: 24px;
+  color: #0a0a0a;
+  font-family: 'Gentium Book Basic';
+}

@@ -1,0 +1,64 @@
+.wrapContent {
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  width: 100%;
+  height: fit-content;
+}
+
+.title {
+  font-size: 1.2em;
+  text-align: center;
+  display: flow-root;
+}
+
+.highlight {
+  color: #ff6600;
+  /* Màu cam */
+}
+
+.contentParagraph {
+  margin-bottom: 20px;
+  /* Thêm các thuộc tính khác tùy ý */
+}
+
+.wrapContent p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  max-width: 100%;
+}
+
+.wrapContent a {
+  color: #007bff;
+  /* Màu xanh dương */
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.wrapContent a:hover {
+  text-decoration: underline;
+}
+
+.wrapContent ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.wrapContent li {
+  margin-bottom: 5px;
+  max-width: 100%;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.content {
+  width: 100%;
+  /* Adjust width as needed */
+  height: 500px;
+  /* Adjust height as needed */
+  border: none;
+  /* Remove border */
+}

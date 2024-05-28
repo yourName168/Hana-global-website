@@ -1,0 +1,230 @@
+.tVMy {
+  align-self: stretch;
+  position: relative;
+  line-height: 48px;
+}
+.liThngTin {
+  width: 846px;
+  position: relative;
+  font-size: 24px;
+  line-height: 32px;
+  font-family: Inter;
+  color: #313131;
+  display: inline-block;
+}
+.titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.groupChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 309px;
+  height: 151.1px;
+  object-fit: cover;
+}
+.vuesaxoutlinelocationIcon {
+  width: 20px;
+  position: relative;
+  height: 20px;
+}
+.fromSgnTo {
+  position: relative;
+  line-height: 32px;
+}
+.vuesaxoutlinelocationParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.frameParent {
+  position: absolute;
+  top: 151px;
+  left: 0px;
+  background-color: #84dad7;
+  width: 309px;
+  height: 181px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 8px 12px;
+  box-sizing: border-box;
+}
+.rectangleParent {
+  width: 309px;
+  position: relative;
+  height: 332px;
+}
+.title {
+  align-self: stretch;
+  position: relative;
+  line-height: 32px;
+}
+.titleAndText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 24px;
+}
+.bookNow {
+  color: #09b5af;
+  position: relative;
+  font-weight: 600;
+}
+.vuesaxoutlinearrowRightIcon {
+  width: 24px;
+  position: relative;
+  height: 24px;
+}
+.bookNowParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+.titleParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 24px;
+  gap: 4px;
+  font-size: 20px;
+  color: #09b5af;
+  font-family: Inter;
+}
+.titleAndTextParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  text-align: left;
+  font-size: 24px;
+  color: #0a0a0a;
+  font-family: 'Gentium Book Basic';
+}
+.card {
+  width: 357px;
+  background-color: #f6f6f6;
+  height: 508px;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 0px;
+  box-sizing: border-box;
+}
+.cards {
+  width: 1007px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 40px 20px;
+}
+.cardsWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+}
+.frameChild {
+  align-self: stretch;
+  position: relative;
+  border-top: 1px solid #313131;
+  box-sizing: border-box;
+  height: 1px;
+}
+.vuesaxoutlinearrowRightIcon1 {
+  width: 20px;
+  position: relative;
+  height: 20px;
+  object-fit: contain;
+}
+.vuesaxoutlinearrowRightParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.div {
+  position: relative;
+}
+.wrapper {
+  width: 35px;
+  border-radius: 40px;
+  background-color: #84dad7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  box-sizing: border-box;
+}
+.parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  color: #313131;
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.lineParent {
+  width: 1119px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  color: #09b5af;
+}
+.cardsBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 48px;
+  font-size: 16px;
+  color: #313131;
+  font-family: Inter;
+}
+.titlesParent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 64px;
+  text-align: center;
+  font-size: 40px;
+  color: #0a0a0a;
+  font-family: 'Gentium Book Basic';
+}
+

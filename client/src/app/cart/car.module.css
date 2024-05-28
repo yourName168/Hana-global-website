@@ -1,0 +1,141 @@
+.frameChild {
+    width: 412px;
+    position: relative;
+    height: 278px;
+}
+.rectangleWrapper {
+    width: 412px;
+    height: 278px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-image: url('/car.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.carName {
+    position: relative;
+    line-height: 30px;
+}
+.toyotaCorolla {
+    flex: 1;
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Inter;
+    text-align: right;
+}
+.carNameParent {
+    align-self: stretch;
+    border-bottom: 0.3px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0px 0px 8px;
+    gap: 16px;
+}
+.haNoi {
+    position: relative;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: Inter;
+}
+.locationParent {
+    align-self: stretch;
+    border-bottom: 0.3px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px 8px;
+}
+.frameGroup {
+    align-self: stretch;
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.frameWrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.serviceTypeParent {
+    border-bottom: 0.3px solid #adadad;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 0px 8px;
+    gap: 16px;
+}
+.frameDiv {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.vuesaxoutlineinfoCircle {
+    width: 16px;
+    position: relative;
+    height: 16px;
+    display: none;
+}
+.cancel {
+    position: relative;
+}
+.button {
+    width: 148px;
+    background-color: #09b5af;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    gap: 8px;
+    text-align: center;
+    font-size: 16px;
+    color: #313131;
+    font-family: Inter;
+}
+.frameContainer {
+    align-self: stretch;
+    width: 244px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1px 0px;
+    box-sizing: border-box;
+    gap: 54px;
+}
+.frameParent {
+    flex: 1;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 85px;
+    text-align: left;
+    font-size: 18px;
+    color: #0a0a0a;
+    font-family: 'Gentium Book Basic';
+}
+

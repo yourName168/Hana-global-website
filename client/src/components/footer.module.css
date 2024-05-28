@@ -1,0 +1,215 @@
+.contactInformation {
+  width: 1120px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.subscribeNewsletter1 {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.getExclusiveUpdates {
+  width: 600px;
+  height: 32px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+}
+.subscribeNewsletter {
+  width: 387px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.input {
+  border: none;
+  outline: none;
+  background-color: var(--color-whitesmoke-100);
+  height: 48px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-xs);
+  box-sizing: border-box;
+  font-family: var(--buttons-md-regular);
+  font-size: var(--body-xsm-bold-size);
+  color: var(--text);
+  min-width: 218px;
+  max-width: 100%;
+}
+.vuesaxoutlineinfoCircleIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.subscribe {
+  height: 19px;
+  width: 76px;
+  position: relative;
+  font-size: var(--buttons-md-regular-size);
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  text-align: center;
+  display: inline-block;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  padding: var(--padding-5xs) var(--padding-base);
+  background-color: var(--primary);
+  height: 48px;
+  width: 148px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  gap: var(--gap-5xs);
+}
+.enteryouremail {
+  width: 483px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  max-width: 100%;
+}
+.subscribeNewsletterParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.luxeEscapes1 {
+  height: 23px;
+  width: 160px;
+  position: relative;
+  display: inline-block;
+}
+.luxeEscapesAll {
+  height: 32px;
+  width: 540px;
+  position: relative;
+  font-size: var(--body-md-size);
+  line-height: 32px;
+  font-family: var(--buttons-md-regular);
+  color: var(--text);
+  display: inline-block;
+  max-width: 100%;
+}
+.vuesaxoutlineinstagramIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.subscribeFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.luxeEscapes {
+  align-self: stretch;
+  border-top: 1px solid var(--gray-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-5xl) 0px 0px;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: var(--body-lg-size);
+  color: var(--shade);
+}
+.buttomSection {
+  width: 1120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-21xl);
+  max-width: 100%;
+  font-size: var(--buttons-lg-size);
+  color: var(--titles);
+  font-family: var(--headings-h2);
+}
+.footer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-21xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-61xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-md-size);
+  color: var(--text);
+  font-family: var(--buttons-md-regular);
+}
+
+@media screen and (max-width: 1200px) {
+  .contactInformation {
+    flex-wrap: wrap;
+  }
+
+  .footer {
+    gap: var(--gap-21xl);
+  }
+}
+@media screen and (max-width: 1050px) {
+  .subscribeNewsletterParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .subscribeNewsletter1 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+
+  .enteryouremail {
+    flex-wrap: wrap;
+  }
+
+  .luxeEscapes1 {
+    font-size: var(--buttons-md-regular-size);
+  }
+}
+@media screen and (max-width: 450px) {
+  .luxeEscapes {
+    flex-wrap: wrap;
+  }
+
+  .buttomSection {
+    gap: var(--gap-xl);
+  }
+
+  .footer {
+    gap: var(--gap-xl);
+  }
+}

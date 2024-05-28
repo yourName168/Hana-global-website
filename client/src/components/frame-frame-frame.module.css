@@ -1,0 +1,54 @@
+.vuesaxoutlinesmsIcon {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
+.email {
+  width: 150px;
+  height: 32px;
+  position: relative;
+  font-size: 23px;
+  line-height: 32px;
+  display: inline-block;
+  font-family: var(--headings-h2);
+  color: var(--titles);
+}
+.getInTouch {
+  width: 330px;
+  height: 64px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.infoluxeEscapescom {
+  top:50px;
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+  white-space: nowrap;
+}
+.frameFrameFrame {
+  width: 346px;
+  border-left: 1px solid var(--gray-01);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0px 0px 0px var(--padding-mini);
+  gap: var(--gap-xs);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--body-md-size);
+  color: var(--text);
+  font-family: var(--buttons-md-regular);
+}
+
+@media screen and (max-width: 750px) {
+  .email {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

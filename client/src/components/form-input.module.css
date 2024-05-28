@@ -1,0 +1,81 @@
+.userName {
+  height: 32px;
+  position: relative;
+  line-height: 32px;
+  display: inline-block;
+}
+.vuesaxoutlineaddSquareIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  display: none;
+}
+.iconAfter:hover {
+  filter: brightness(0.7); /* Áp dụng hiệu ứng làm sáng khi hover */
+  cursor: pointer;
+}
+.userName1 {
+  border: none;
+  outline: none;
+  font-weight: 600;
+  font-family: var(--buttons-md-regular);
+  font-size: var(--buttons-md-regular-size);
+  background-color: transparent;
+  height: 19px;
+  flex: 1;
+  position: relative;
+  color: var(--gray-01);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  max-width: 100%;
+}
+.input {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border: 1px solid var(--text);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-4xs) var(--padding-base)
+    var(--padding-6xs);
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.description {
+  align-self: stretch;
+  width: 77px;
+  position: relative;
+  line-height: 180%;
+  font-weight: 500;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.descriptionWrapper {
+  align-self: stretch;
+  height: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: var(--caption-lg-size);
+  color: var(--color-darkslategray-200);
+}
+.formInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--body-md-size);
+  color: var(--titles);
+  font-family: var(--buttons-md-regular);
+}
